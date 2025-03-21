@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Alica`sWebSite/',
+  base: '/AliceWebSite/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
