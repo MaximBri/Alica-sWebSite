@@ -18,7 +18,7 @@ export const BurgerMenu: FC<{ onClick: () => void; isOpen: boolean }> = ({
         <div className="w-10 h-[3px] bg-black dark:bg-white absolute transform rotate-45 rounded-sm"></div>
         <div className="w-10 h-[3px] bg-black dark:bg-white absolute transform -rotate-45 rounded-sm"></div>
       </button>
-      <Navbar closeBurger={onClick} classList="flex flex-col text-center gap-2 text-xl" />
+      <Navbar closeBurger={onClick} classList="flex flex-col text-center gap-2 text-xl z-10" />
     </div>
   );
 };

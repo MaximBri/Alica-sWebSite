@@ -42,7 +42,7 @@ export const About = () => {
           <SocialLinks />
         </div>
       </div>
-      <img className='mx-auto lg:mx-0 lg:ml-auto' src={photo} alt="about" />
+      <img className="mx-auto lg:mx-0 lg:ml-auto" src={photo} alt="about" />
     </section>
   );
 };

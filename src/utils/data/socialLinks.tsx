@@ -44,9 +44,9 @@ export const socialLinks: socialLink[] = [
             y2="3.87616"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>
@@ -89,9 +89,9 @@ export const socialLinks: socialLink[] = [
             y2="3.75027"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>
@@ -134,9 +134,9 @@ export const socialLinks: socialLink[] = [
             y2="2.98681"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>
@@ -195,9 +195,9 @@ export const socialLinks: socialLink[] = [
             y2="6.74575"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_18_2438"
@@ -207,9 +207,9 @@ export const socialLinks: socialLink[] = [
             y2="6.81029"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_18_2438"
@@ -219,9 +219,9 @@ export const socialLinks: socialLink[] = [
             y2="0.822567"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>
@@ -264,9 +264,9 @@ export const socialLinks: socialLink[] = [
             y2="3.09608"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>

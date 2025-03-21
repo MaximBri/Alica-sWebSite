@@ -173,7 +173,7 @@ export const Contact = () => {
       />
       {theme === 'dark' && (
         <img
-          className="xs:hidden absolute top-[-26%] w-[100vw]"
+          className="xs:hidden absolute top-[-26%] w-[100vw] -z-10"
           src={radialDotDark}
           alt="decor"
         ></img>

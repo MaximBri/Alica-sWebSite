@@ -76,18 +76,18 @@ export const Hero = () => {
       </div>
       <HeroPhoto classList="hidden lg:flex" />
       <img
-        className={`absolute right-[-10vw] md:right-[-17vw] top-[-10vw] z-[-10] ${
+        className={`absolute right-[-10vw] md:right-[-17vw] top-[-10vw] -z-10 ${
           theme === 'light' ? 'hidden md:block' : ''
         }`}
         src={theme === 'dark' ? dotDark : dotLight}
         alt="decor"
       />
       <img
-        className={`absolute right-[15vw] top-[-20dvh] translate-x-1/2 z-[-10] hidden lg:block`}
+        className={`absolute right-[15vw] top-[-20dvh] translate-x-1/2 -z-10 hidden lg:block`}
         src={theme === 'dark' ? circlesDark : circlesLight}
         alt="decor"
       />
-      {theme === 'light' && <img className='absolute right-[-5vw] top-[-10%] md:hidden' src={dotMobileLight} alt="decor" />}
+      {theme === 'light' && <img className='absolute right-[-5vw] top-[-10%] md:hidden -z-10' src={dotMobileLight} alt="decor" />}
     </section>
   );
 };

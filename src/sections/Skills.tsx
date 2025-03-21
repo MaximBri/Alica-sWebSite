@@ -28,7 +28,7 @@ export const Skills = () => {
       />
       {theme === 'light' && (
         <img
-          className="absolute right-[-5vw] top-[-130%] md:hidden"
+          className="absolute right-[-5vw] top-[-130%] md:hidden -z-10"
           src={verticalGradient}
           alt="decor"
         ></img>

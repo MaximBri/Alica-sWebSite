@@ -43,7 +43,7 @@ export const Experience = () => {
         </p>
       </div>
       <img
-        className={`absolute hidden md:block ${theme === 'dark' ? 'left-[-20vw]' : 'left-[-17vw]'} translate-y-[-37%] z-[-10]`}
+        className={`absolute hidden md:block ${theme === 'dark' ? 'left-[-20vw]' : 'left-[-17vw]'} translate-y-[-37%] -z-10`}
         src={theme === 'light' ? radialLight : radialDark}
         alt="decor"
       />

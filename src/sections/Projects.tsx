@@ -46,7 +46,7 @@ export const Projects = () => {
       <h2 className="text-3xl md:text-[40px] lg:text-50 mt-4 lg:mt-6 mb-6 sm:mb-10 lg:mb-[56px] font-semibold leading-1.1 tracking-custom text-black dark:text-white text-center">
         My recent Works
       </h2>
-      <nav className="flex flex-wrap border-b border-links w-full items-center justify-center sm:pb-4 lg:pb-8 gap-[10px]">
+      <nav className="flex flex-wrap border-b border-links w-full items-center justify-center pb-4 lg:pb-8 gap-[10px]">
         {projectFilters.map((item, index) => {
           return (
             <button

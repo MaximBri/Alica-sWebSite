@@ -11,8 +11,8 @@ export const contactIconsList = [
         <path
           d="M15.9335 7.75C16.0518 6.95252 16.012 6.13955 15.8163 5.35745C15.5485 4.28882 14.9949 3.31324 14.2148 2.53534C13.4369 1.75508 12.4613 1.20131 11.3926 0.933432C10.6105 0.737893 9.79747 0.698216 9 0.816665M12.3741 7.37344C12.4397 6.93818 12.402 6.49361 12.2642 6.07557C12.1264 5.65754 11.8922 5.27774 11.5807 4.96682C11.2697 4.65525 10.8899 4.42112 10.4719 4.28329C10.0538 4.14547 9.60925 4.10781 9.17398 4.17337"
           stroke="url(#paint0_linear_25_6567)"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M3.80834 1.75C3.96108 1.75008 4.11102 1.79394 4.24261 1.87702C4.37421 1.9601 4.48267 2.07938 4.55674 2.22249L5.60442 4.24364C5.67202 4.37407 5.70891 4.5202 5.7119 4.66936C5.71488 4.81851 5.68387 4.9662 5.62155 5.09962L4.6124 7.2616C4.6124 7.2616 4.90483 8.87264 6.12848 10.1837C7.35256 11.4947 8.85108 11.803 8.85108 11.803L10.8685 10.7218C10.9931 10.655 11.1311 10.6218 11.2704 10.6251C11.4097 10.6284 11.5461 10.668 11.6679 10.7406L13.5603 11.8677C13.6936 11.9472 13.8047 12.0635 13.882 12.2045C13.9593 12.3455 14 12.506 14 12.6695V14.9971C14 16.182 12.9724 17.0384 11.9243 16.6591C9.7716 15.8811 6.43033 14.3989 4.31184 12.1301C2.19422 9.86074 0.811296 6.28038 0.0847272 3.97391C-0.268924 2.85094 0.530002 1.75 1.63634 1.75H3.80834Z"
@@ -31,9 +31,9 @@ export const contactIconsList = [
             y2="2.45585"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_25_6567"
@@ -43,9 +43,9 @@ export const contactIconsList = [
             y2="5.37749"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>
@@ -61,7 +61,7 @@ export const contactIconsList = [
         <path
           d="M15.9335 8C16.0518 7.20252 16.012 6.38955 15.8163 5.60745C15.5485 4.53882 14.9949 3.56324 14.2148 2.78534C13.4369 2.00508 12.4613 1.45131 11.3926 1.18343C10.6105 0.987893 9.79747 0.948216 9 1.06667M12.3741 7.62344C12.4397 7.18818 12.402 6.74361 12.2642 6.32557C12.1264 5.90754 11.8922 5.52774 11.5807 5.21682C11.2697 4.90525 10.8899 4.67112 10.4719 4.53329C10.0538 4.39547 9.60925 4.35781 9.17398 4.42337"
           stroke="white"
-          stroke-linecap="round"
+          strokeLinecap="round"
           stroke-linejoin="round"
         />
         <path
@@ -97,9 +97,9 @@ export const contactIconsList = [
             y2="4.01452"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>
@@ -161,9 +161,9 @@ export const contactIconsList = [
             y2="7.49575"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_25_6581"
@@ -173,9 +173,9 @@ export const contactIconsList = [
             y2="7.56029"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_25_6581"
@@ -185,9 +185,9 @@ export const contactIconsList = [
             y2="1.57257"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FC365A" />
-            <stop offset="0.41388" stop-color="#F21279" />
-            <stop offset="0.92888" stop-color="#D549C7" />
+            <stop stopColor="#FC365A" />
+            <stop offset="0.41388" stopColor="#F21279" />
+            <stop offset="0.92888" stopColor="#D549C7" />
           </linearGradient>
         </defs>
       </svg>

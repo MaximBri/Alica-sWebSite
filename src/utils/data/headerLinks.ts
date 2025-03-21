@@ -1,11 +1,11 @@
 interface headerLinkInterface {
-  link: string;
+  target: string;
   name: string;
 }
 
 export const headerLinks: headerLinkInterface[] = [
-  { link: '#about', name: 'About' },
-  { link: '#works', name: 'Works' },
-  { link: '#blog', name: 'Blog' },
-  { link: '#contacts', name: 'Contacts' },
+  { target: '#about', name: 'About' },
+  { target: '#works', name: 'Works' },
+  { target: '#blog', name: 'Blog' },
+  { target: '#contacts', name: 'Contacts' },
 ];
