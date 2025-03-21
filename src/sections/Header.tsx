@@ -22,7 +22,7 @@ export const Header = () => {
       )}
       <div className="flex gap-2 items-center">
         <button
-          className="sm:hidden flex flex-col gap-[5px] text-black w-[30px] h-[20px] p-3 box-content"
+          className="sm:hidden flex flex-col gap-[5px] text-black w-[30px] h-[20px] p-3 pl-0 box-content"
           onClick={changeMenuOpen}
         >
           <div className="w-full h-[3px] bg-black dark:bg-white"></div>
@@ -33,19 +33,6 @@ export const Header = () => {
         <ThemeSwitcher />
       </div>
       <Navbar classList="hidden sm:flex" />
-      {menuOpen && (
-        <nav className="">
-          {headerLinks.map((elem, index) => {
-            return (
-              <Link
-                onClick={() => setMenuOpen(false)}
-                to={elem.link}
-                key={index}
-              ></Link>
-            );
-          })}
-        </nav>
-      )}
 
       <Button classList="px-[20px] py-[10px]" text="Contact Me" />
     </header>

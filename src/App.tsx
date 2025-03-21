@@ -12,34 +12,8 @@ import { Footer } from './sections/Footer';
 import './assets/fonts/fonts.css';
 import './styles/reset.css';
 import './styles/index.css';
-import { useEffect } from 'react';
 
 function App() {
-  useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash.substring(1);
-      if (hash) {
-        const element = document.getElementById(hash);
-        if (element) {
-          const headerHeight = 100; // Замените на реальную высоту вашего хедера
-          const elementTop = element.offsetTop - headerHeight;
-          
-          window.scrollTo({
-            top: elementTop,
-            behavior: 'smooth'
-          });
-        }
-      }
-    };
-
-    handleHashChange();
-    
-    window.addEventListener('hashchange', handleHashChange);
-    
-    return () => {
-      window.removeEventListener('hashchange', handleHashChange);
-    };
-  }, []);
   return (
     <BrowserRouter>
       <div>

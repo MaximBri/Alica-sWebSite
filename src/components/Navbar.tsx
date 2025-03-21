@@ -5,13 +5,9 @@ export const Navbar: FC<{
   classList?: string;
   closeBurger?: () => void;
 }> = ({ classList, closeBurger }) => {
-  const handleLinkClick = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    target: string
-  ) => {
-    e.preventDefault();
+
+  const handleLinkClick = () => {
     closeBurger?.();
-    window.location.hash = target;
   };
 
   return (
@@ -20,8 +16,8 @@ export const Navbar: FC<{
         <a
           key={elem.name}
           href={elem.target}
-          onClick={(e) => handleLinkClick(e, elem.target)}
-          className={`${classList} font-bold text-base leading-snug text-primary dark:text-primary-dark cursor-pointer z-10`}
+          onClick={handleLinkClick}
+          className={`${classList} font-bold text-base leading-snug text-primary dark:text-primary-dark cursor-pointer`}
         >
           {elem.name}
         </a>

@@ -71,7 +71,7 @@ export const Projects = () => {
           );
         })}
       </nav>
-      <ul className="pt-10 lg:pt-[56px] pb-60 md:pb-[80px] lg:pb-100 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <ul className="pt-10 lg:pt-[56px] pb-60 md:pb-[80px] lg:pb-100 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-10">
         {projects.map((item, index) => {
           return <ProjectCard data={item} key={index} />;
         })}

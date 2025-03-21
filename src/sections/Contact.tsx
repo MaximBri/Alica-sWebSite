@@ -57,7 +57,7 @@ export const Contact = () => {
                   </a>
                 </div>
               </li>
-              <li className="opacity-60 md:opacity-100 max-w-[72%] md:max-w-none w-full bg-contacts-gradient-light dark:bg-contacts-gradient-dark px-6 py-[26px] rounded-2xl flex items-center gap-6">
+              <li className="opacity-60 md:opacity-100 max-w-[72%] md:max-w-none w-full bg-contacts-gradient-light dark:bg-contacts-gradient-dark p-4 lg:px-6 lg:py-[26px] rounded-2xl flex items-center gap-6">
                 <div
                   className={`w-[38px] h-[38px] flex items-center justify-center border border-primary dark:border-primary-dark rounded-full ${
                     theme !== 'dark' ? 'bg-icons' : 'border-0'
@@ -79,7 +79,7 @@ export const Contact = () => {
                   </a>
                 </div>
               </li>
-              <li className="opacity-60 md:opacity-100 max-w-[72%] md:max-w-none w-full bg-contacts-gradient-light dark:bg-contacts-gradient-dark px-6 py-[26px] rounded-2xl flex items-center gap-6">
+              <li className="opacity-60 md:opacity-100 max-w-[72%] md:max-w-none w-full bg-contacts-gradient-light dark:bg-contacts-gradient-dark p-4 lg:px-6 lg:py-[26px] rounded-2xl flex items-center gap-6">
                 <div
                   className={`w-[38px] h-[38px] flex items-center justify-center border border-primary dark:border-primary-dark rounded-full ${
                     theme !== 'dark' ? 'bg-icons' : 'border-0'
@@ -142,7 +142,7 @@ export const Contact = () => {
             </label>
             <nav className="flex w-full gap-4 items-center justify-between">
               <span className="min-w-[150px] lg:min-w-[225px] w-[35%] button-wrapper rounded-10 p-[6px] whitespace-nowrap bg-grey-light dark:bg-grey-dark border border-primary dark:border-primary-dark h-[47px] md:h-[68px] inline-block">
-                <button className="gradient-border-button-bg border-0 text-white rounded-[5px] z-10 px-2 relative py-2 md:py-[15px] lg:py-[19px] h-full w-full">
+                <button className="gradient-border-button border-0 text-white rounded-[5px] z-10 px-2 relative py-2 md:py-[15px] lg:py-[19px] h-full w-full">
                   {theme === 'light' ? (
                     <span className="rounded-10  bg-viola dark:bg-viola-dark z-0">
                       <p className="button-text font-semibold text-base leading-1.1 bg-switch dark:bg-white z-20 tracking-custom">

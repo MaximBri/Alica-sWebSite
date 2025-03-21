@@ -14,7 +14,7 @@ export const Skills = () => {
       <h2 className="mt-4 lg:mt-6 mb-10 sm:mb-12 lg:mb-60 text-black dark:text-white font-semibold text-3xl md:text-4xl lg:text-50 leading-1.1 text-center">
         My Skills
       </h2>
-      <ul className="flex items-center gap-[10px] md:gap-5 lg:gap-[30px] flex-wrap justify-center">
+      <ul className="flex items-center gap-[10px] md:gap-5 lg:gap-7 flex-wrap justify-center">
         {skillsList.map((item, index) => {
           return <SkillBadge data={item} key={index} />;
         })}

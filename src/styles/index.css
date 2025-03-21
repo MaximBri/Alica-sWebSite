@@ -96,6 +96,6 @@
     @apply bg-viola dark:bg-viola-dark;
   }
   html, body{
-    scroll-behavior: smooth;
+    @apply scroll-auto lg:scroll-smooth
   }
 }

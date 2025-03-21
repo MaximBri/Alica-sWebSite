@@ -83,7 +83,7 @@ export const Hero = () => {
         alt="decor"
       />
       <img
-        className={`absolute right-[15vw] top-[-20dvh] translate-x-1/2 -z-10 hidden lg:block`}
+        className={`absolute right-[-18vw] top-[-20dvh] -z-10 hidden lg:block`}
         src={theme === 'dark' ? circlesDark : circlesLight}
         alt="decor"
       />
