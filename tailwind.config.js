@@ -58,7 +58,6 @@ module.exports = {
         },
         contacts: '#fff7fe',
         'burger-dark': '#110452',
-        pink: '#FFC7F6',
       },
 
       backgroundImage: {

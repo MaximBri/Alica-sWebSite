@@ -1,7 +1,5 @@
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-import { headerLinks } from '../utils/data/headerLinks';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import { Button } from '@/components/Button';
 import { BurgerMenu } from '@/components/BurgerMenu';
