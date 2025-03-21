@@ -10,7 +10,7 @@ export const ProjectCard: FC<{ data: projectInterface }> = ({ data }) => {
       <div className="relative">
         <img
           className="w-full"
-          src={`/projects/${data.imagePath}`}
+          src={`/AliceWebSite/projects/${data.imagePath}`}
           alt="screenshot"
         />
         <div className="absolute flex top-3 right-3 gap-[10px] z-10">
